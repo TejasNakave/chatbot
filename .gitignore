@@ -1,8 +1,6 @@
-# Environment variables
-.env
-
-# Cache directory
-cache/
+# Cache directory (but keep the folder structure)
+cache/*.pkl
+cache/*.json
 __pycache__/
 *.pyc
 *.pyo
@@ -12,10 +10,6 @@ __pycache__/
 ~$*
 *.tmp
 *.temp
-
-# Large data files (optional - you can remove this line if you want to include them)
-data/*.pdf
-data/*.docx
 
 # Streamlit cache
 .streamlit/

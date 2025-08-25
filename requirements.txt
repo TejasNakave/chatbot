@@ -9,4 +9,3 @@ numpy
 faiss-cpu
 razorpay
 stripe
-sqlite3
